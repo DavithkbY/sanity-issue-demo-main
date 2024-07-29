@@ -5,7 +5,7 @@ import {FaBars} from 'react-icons/fa'
 
 export default defineType({
   name: 'test',
-  title: 'Test',
+  title: 'Document referencing document',
   type: 'document',
   icon: MdSettings,
   groups: [

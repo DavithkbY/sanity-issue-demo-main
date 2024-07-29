@@ -2,7 +2,7 @@ import {defineField, defineType} from 'sanity'
 import {MdSettings} from 'react-icons/md'
 export default defineType({
   name: 'nieuwe',
-  title: 'Nieuwe',
+  title: 'Document',
   type: 'document',
   icon: MdSettings,
   fields: [
