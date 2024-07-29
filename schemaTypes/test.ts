@@ -44,20 +44,5 @@ export default defineType({
       //   },
       // },
     }),
-    defineField({
-      name: 'footerNavigation',
-      title: 'Footer Navigation',
-      group: 'navigations',
-      type: 'reference',
-      to: [{type: 'nieuwe'}],
-      // options: {
-      //   filter: ({parent, document}) => {
-      //     return {
-      //       filter: `language == $language`,
-      //       params: {language: document.language}
-      //     }
-      //   },
-      // },
-    }),
   ],
 })
